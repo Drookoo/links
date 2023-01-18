@@ -9,3 +9,5 @@ env: flex
 network:
   forwarded_ports:
     - 4000/tcp
+
+entrypoint: bundle exec jekyll s -l -o -H 0.0.0.0
