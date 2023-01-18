@@ -1,11 +1,11 @@
 steps:
-- name: 'gcr.io/cloud-builders/docker'
-  id: Build
-  args: ['build', '-t', 'gcr.io/andrew-ku-links/links:latest', '-f', 'Dockerfile', '.']
+# - name: 'gcr.io/cloud-builders/docker'
+#   id: Build
+#   args: ['build', '-t', 'gcr.io/andrew-ku-links/links:latest', '-f', 'Dockerfile', '.']
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Deploy to GAE
-  args: ['app', 'deploy', '--image-url=gcr.io/andrew-ku-links/links:latest']
-  waitFor: 
-  - Build
-images: 
-- 'gcr.io/andrew-ku-links/links:latest'
+  args: ['app', 'deploy']
+#   waitFor: 
+# #   - Build
+# images: 
+# - 'gcr.io/andrew-ku-links/links:latest'
