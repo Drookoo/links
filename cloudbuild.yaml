@@ -5,7 +5,7 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   id: Deploy to GAE
   args: ['app', 'deploy', '--image-url=gcr.io/andrew-ku-links/links:latest']
-  waitFOr: 
+  waitFor: 
   - Build
 images: 
 - 'gcr.io/andrew-ku-links/links:latest'
