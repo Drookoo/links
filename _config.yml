@@ -2,7 +2,7 @@
 name: Andrew Ku
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day. 
+tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day and do a lot of other things at the same time. 
 
 # YOUR/BRAND IMAGE URL
 Image_URL: https://github.com/Drookoo.png
@@ -60,7 +60,7 @@ links:
     # YOUTUBE
   - Name: YouTube
     URL: https://www.youtube.com/channel
-    Username: UCS3zvA_2r1iGT7MB3NVCGAw
+    Username: DrewKu
     Color: '#ff0000'
     Icon-Class: fab fa-youtube
 
