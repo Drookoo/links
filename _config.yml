@@ -2,7 +2,7 @@
 name: Andrew Ku
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day and do a lot of other things at the same time. 
+tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day and I enjoy board games, cameras, photography, videography, stocks, mechanical keyboards, and the news.
 
 # YOUR/BRAND IMAGE URL
 Image_URL: https://github.com/Drookoo.png
@@ -70,6 +70,13 @@ links:
     Username: Drookoo
     Color: '#6e5494'
     Icon-Class: fab fa-github
+  
+  - Name: Flickr
+    URL: https://www.flickr.com/photos
+    Username: drookoo
+    Color: '#1ab7ea'
+    Text_color: '#ffffff'
+    Icon-Class: fas fa-camera
 
 #     # EMAIL
 #   - Name: Email
@@ -237,7 +244,7 @@ links:
 
     # CUSTOM LINK
   - Name: Blog
-    URL: https://harsh98trivedi.github.io/blog
+    URL: https://drookoo.github.io
     Icon-Class: fas fa-link
     Color: '#ffb142'
     Text_Color: '#ffffff'
