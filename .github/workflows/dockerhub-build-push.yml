@@ -1,4 +1,4 @@
-name: Docker Build and Push
+name: Docker Build and Push and Deploy
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 jobs:
   docker:
     if: github.repository == 'Drookoo/links'
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       -
         name: Set up QEMU
@@ -21,5 +21,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          push: false
+          push: true
           tags: drookoo/links:latest
