@@ -2,7 +2,7 @@
 name: Andrew Ku
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day and I enjoy board games, cameras, photography, videography, stocks, mechanical keyboards, and the news.
+tagline: Hello, I'm Andrew Ku. I'm a cloud engineer by day and I enjoy board games, videography, digital photography, stocks, mechanical keyboards, and the news.
 
 # YOUR/BRAND IMAGE URL
 Image_URL: https://github.com/Drookoo.png
@@ -28,13 +28,6 @@ links:
     Username: drookoo
     Color: '#DD2A7B'
     Icon-Class: fab fa-instagram
-
-    # TWITTER
-  - Name: Twitter
-    URL: https://twitter.com
-    Username: drookoo
-    Color: '#1DA1F2'
-    Icon-Class: fab fa-twitter
 
 #     # Cal.com
 #   - Name: Cal.com
@@ -63,6 +56,20 @@ links:
     Username: DrewKu
     Color: '#ff0000'
     Icon-Class: fab fa-youtube
+  
+    # CUSTOM LINK
+  - Name: Blog
+    URL: https://drewku.com
+    Icon-Class: fas fa-link
+    Color: '#ffb142'
+    Text_Color: '#ffffff'
+    
+  - Name: Flickr
+    URL: https://www.flickr.com/photos
+    Username: drookoo
+    Color: '#1ab7ea'
+    Text_color: '#ffffff'
+    Icon-Class: fas fa-camera
 
     # GITHUB
   - Name: GitHub
@@ -70,13 +77,13 @@ links:
     Username: Drookoo
     Color: '#6e5494'
     Icon-Class: fab fa-github
-  
-  - Name: Flickr
-    URL: https://www.flickr.com/photos
+   
+    # TWITTER
+  - Name: Twitter
+    URL: https://twitter.com
     Username: drookoo
-    Color: '#1ab7ea'
-    Text_color: '#ffffff'
-    Icon-Class: fas fa-camera
+    Color: '#1DA1F2'
+    Icon-Class: fab fa-twitter
 
 #     # EMAIL
 #   - Name: Email
@@ -241,13 +248,6 @@ links:
 #     Icon-Class: fas fa-mug-hot
 #     Color: '#FFDD00'
 #     Text_Color: '#000000'
-
-    # CUSTOM LINK
-  - Name: Blog
-    URL: https://drookoo.github.io
-    Icon-Class: fas fa-link
-    Color: '#ffb142'
-    Text_Color: '#ffffff'
 
 #   - Name: Links
 #     URL: https://github.com/harsh98trivedi/links
