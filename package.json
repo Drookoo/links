@@ -16,7 +16,7 @@
     "npm-jekyll-s": "bundle exec jekyll s -l -o",
     "npm-bundle-install": "bundle install && npm run npm-jekyll-s",
     "npm-install": "npm install && npm run npm-bundle-install",
-    "npm-up": "nodemon --exec npm run npm-install",
+    "npm-up": "npm run npm-install",
     "start": "npm run npm-up"
   },
   "keywords": [
