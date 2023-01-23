@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . /app
 
 # Install nodemon and webrick
-RUN npm install -g nodemon
+# RUN npm install -g nodemon
 RUN bundle add webrick
 
 # Expose port 4000
