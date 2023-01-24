@@ -13,4 +13,4 @@ RUN bundle add webrick
 EXPOSE 8080
 
 # Start jekyll server
-CMD ["bundle", "exec", "jekyll", "serve", "-l", "-o", "-H", "0.0.0.0", "-P", "8080"]
+CMD ["bundle", "exec", "jekyll", "serve", "-o", "-H", "0.0.0.0", "-P", "8080"]
