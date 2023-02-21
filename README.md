@@ -2,6 +2,11 @@
 
 FLEX environments are not a part of the free tier on GCP! https://cloud.google.com/appengine/pricing#app-engine-pricing 
 
+# To run
+```
+docker run -d -p 8081:8080 ghcr.io/drookoo/links
+```
+
 A Beautiful Jekyll Theme For Links
 trigger commit
 
