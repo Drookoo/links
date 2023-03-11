@@ -64,12 +64,19 @@ links:
     Color: '#ffb142'
     Text_Color: '#ffffff'
     
-  - Name: Flickr
-    URL: https://www.flickr.com/photos
-    Username: drookoo
-    Color: '#1ab7ea'
-    Text_color: '#ffffff'
+    # CUSTOM LINK
+  - Name: Gallery
+    URL: https://png.drewku.com
     Icon-Class: fas fa-camera
+    Color: '#1ab7ea'
+    Text_Color: '#ffffff'
+    
+#   - Name: Flickr
+#     URL: https://www.flickr.com/photos
+#     Username: drookoo
+#     Color: '#1ab7ea'
+#     Text_color: '#ffffff'
+#     Icon-Class: fas fa-camera
 
     # GITHUB
   - Name: GitHub
