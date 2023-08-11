@@ -56,10 +56,17 @@ links:
     Username: DrewKu
     Color: '#ff0000'
     Icon-Class: fab fa-youtube
+
+    # CUSTOM LINK
+  - Name: Portfolio
+    URL: https://drewku.com
+    Icon-Class: fas fa-link
+    Color: '#2867B2'
+    Text_Color: '#ffffff'
   
     # CUSTOM LINK
   - Name: Blog
-    URL: https://drewku.com
+    URL: https://blog.drewku.com
     Icon-Class: fas fa-link
     Color: '#ffb142'
     Text_Color: '#ffffff'
