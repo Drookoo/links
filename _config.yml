@@ -70,6 +70,14 @@ links:
     Icon-Class: fas fa-link
     Color: '#ffb142'
     Text_Color: '#ffffff'
+
+    # EMAIL
+  - Name: Email
+    URL: 'mailto:hello@drewku.com'
+    Icon-Class: fas fa-envelope
+    Color: '#e17055'
+    Text_Color: '#ffffff'
+
     
   #   # CUSTOM LINK
   # - Name: Gallery
@@ -99,12 +107,7 @@ links:
     Color: '#1DA1F2'
     Icon-Class: fab fa-twitter
 
-#     # EMAIL
-#   - Name: Email
-#     URL: 'mailto:andrewku123@gmail.com'
-#     Icon-Class: fas fa-envelope
-#     Color: '#e17055'
-#     Text_Color: '#ffffff'
+
 
 #     # TWITCH
 #   - Name: Twitch
