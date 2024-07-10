@@ -42,9 +42,14 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+      - name: Prep Jekyll - add webrick
+        # Outputs to the './_site' directory by default
+        run: bundle add webrick
+        env:
+          JEKYLL_ENV: production
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build -b https://links.drewku.com
+        run: bundle add webrick bundle exec jekyll build -b https://links.drewku.com
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
