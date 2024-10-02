@@ -79,12 +79,12 @@ links:
     Text_Color: '#ffffff'
 
     
-  #   # CUSTOM LINK
-  # - Name: Gallery
-  #   URL: https://png.drewku.com
-  #   Icon-Class: fas fa-camera
-  #   Color: '#1ab7ea'
-  #   Text_Color: '#ffffff'
+    # CUSTOM LINK
+  - Name: Photos Repository
+    URL: https://docs.google.com/document/d/1_8XHej0nSfY8eDhGWm2ewLQR_OnBVpfzFuCtxWoRuLU/edit?usp=sharing
+    Icon-Class: fas fa-camera
+    Color: '#1ab7ea'
+    Text_Color: '#ffffff'
     
 #   - Name: Flickr
 #     URL: https://www.flickr.com/photos
